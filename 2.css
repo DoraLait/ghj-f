@@ -1,0 +1,400 @@
+html {
+  height: 5100px;
+  width: 1440px;
+}       
+
+/*ЦВЕТ ФОНА*/
+      body {
+        background-color: #FED3E5; 
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      /* Линия под кнопки */
+      .linea {
+  display: flex; /* Используйте flexbox для выравнивания */
+  align-items: center; /* Выровнять элементы по вертикали */
+  justify-content: flex-start; /* Выравнивание элементов по горизонтали */
+  background-color: rgb(230, 193, 255);
+  width: 1500px;
+  height: 50px;
+  border-radius: 60px;
+  position: relative;
+  z-index: 0;
+  margin-left: 10px;
+  padding-left: 10px; /* Добавьте отступы для выравнивания с кнопками */
+}
+       
+
+      /* Стилизация кнопки */
+      .Zakaz {
+          padding: 8px 20px;
+          background-color: #BF90D6; /* Зеленый цвет фона */
+          color: white;
+          border: none;
+          border-radius: 60px;
+          cursor: pointer;
+          font-size: 16px;
+          position: relative; /* Добавлено для позиционирования */
+          z-index: 1; /* Добавлено для управления слоями */
+          top: 7px;
+          margin-left: 10px;
+          margin-bottom: 15px;
+          transition: background-color 0.5s ease; /* Плавное изменение цвета фона */
+      }
+
+              /* Стилизация кнопки */
+              .Onas {
+          padding: 8px 20px;
+          background-color: #BF90D6; /* Зеленый цвет фона */
+          color: white;
+          border: none;
+          border-radius: 60px;
+          cursor: pointer;
+          font-size: 16px;
+          position: relative; /* Добавлено для позиционирования */
+          z-index: 1; /* Добавлено для управления слоями */
+          top: 7px;
+          margin-left: 20px;
+          margin-bottom: 15px;
+          transition: background-color 0.5s ease; /* Плавное изменение цвета фона */
+      }
+
+      /* Стилизация при наведении курсора на кнопку */
+.Onas:hover {
+  background-color: #ffa4e2;
+}
+
+.Zakaz:hover {
+  background-color: #ffa4e2;
+}
+
+  /*Поиск*/    
+form {
+          margin-left: 260px; /* Добавьте поля для выравнивания по кнопкам */
+      }
+
+      input[type="text"]#name {
+          padding: 10px; /* Сочетание отступов с кнопками */
+          width: 500px;
+          border-radius: 60px; /* Сопоставьте радиус границы с кнопками */
+          border: none; /* Удалить границу */
+      }
+
+      /*Регистрация*/
+      .registration-text {
+          padding: 8px 20px; /* Согласование отступов с кнопками */
+          font-size: 16px; /* Согласование размера шрифта с кнопками */
+          color: #420e5c; /* Цвет текста */
+          margin-left: 10px; /* Отступ слева */
+          cursor: default; /* Курсор по умолчанию */
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          margin-left: 50px;
+      }
+
+      /* Стилизация при наведении курсора на текст "Регистрация" */
+      .registration-text:hover {
+          color: #ff4ec7; /* Цвет текста при наведении */
+          text-decoration: underline; /* Подчеркивание текста */
+      }
+      
+
+      /*Вход*/
+      .Vhod-text {
+          padding: 8px 20px; /* Согласование отступов с кнопками */
+          font-size: 16px; /* Согласование размера шрифта с кнопками */
+          color: #420e5c; /* Цвет текста */
+          margin-left: 10px; /* Отступ слева */
+          cursor: default; /* Курсор по умолчанию */
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      /* Стилизация при наведении курсора на текст "Вход" */
+      .Vhod-text:hover {
+          color: #ff40c3; /* Цвет текста при наведении */
+          text-decoration: underline; /* Подчеркивание текста */
+      }
+
+      /*Карта*/
+      .Karta-text {
+        padding: 8px 20px; /* Согласование отступов с кнопками */
+        font-size: 16px; /* Согласование размера шрифта с кнопками */
+        color: #420e5c; /* Цвет текста */
+        margin-left: 10px; /* Отступ слева */
+        cursor: default; /* Курсор по умолчанию */
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    /* Стилизация при наведении курсора на текст "Вход" */
+    .Karta-text:hover {
+        color: #ff40c3; /* Цвет текста при наведении */
+        text-decoration: underline; /* Подчеркивание текста */
+    }
+
+     /* Стилизация кнопки */
+     .Menu {
+      padding: 8px 20px;
+      background-color: #BF90D6; /* Зеленый цвет фона */
+      color: white;
+      border: none;
+      border-radius: 60px;
+      cursor: pointer;
+      font-size: 16px;
+      position: relative; /* Добавлено для позиционирования */
+      z-index: 1; /* Добавлено для управления слоями */
+      top: 7px;
+      margin-left: 50px;
+      margin-bottom: 15px;
+      transition: background-color 0.5s ease; /* Плавное изменение цвета фона */
+  }
+
+/* Стилизация при наведении курсора на кнопку */
+.Menu:hover {
+  background-color: #ffa4e2;
+}
+
+/* Стилизация для выпадающего меню */
+.Razdeli {
+display: none;
+  position:absolute;
+  width: 100px;
+  height: 60px;
+  background-color: #BF90D6;
+
+  box-shadow: 25px 16px 17px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+ z-index: 3;
+  bottom: -10px;
+  left: 1300px;
+}
+
+/* Стилизация для элементов выпадающего меню */
+.Razdeli a {
+  color: white;
+  padding: 17px 17px;
+  text-decoration: none;
+  display: block;
+   
+}
+
+/* Стилизация при наведении курсора на элементы выпадающего меню */
+.Razdeli a:hover {
+  background-color: #ffa4e2;
+  
+}
+
+/*РАЗМЕР ЛОГОТИПА*/
+      .logo{
+          position: relative;
+  width: 150px; /* Ширина изображения */
+  height: 150px; /* Высота изображения */
+  margin-left: 20px;
+  margin-bottom: 2px;
+  z-index: 3;
+  border-radius: 100px;
+  border:#000000 solid 3px;
+      }
+
+/*РАЗМЕР ЛОГОТИПА*/
+.shapka{
+  position: absolute;
+  width: 1500px; /* Ширина изображения */
+  height: 525px; /* Высота изображения */
+  margin-left: 10px;
+  margin-bottom: 2px;
+  border-radius: 67px;
+  z-index: 2;
+  border:#e8b9ff solid 3px;
+      }
+
+      /*РАЗМЕР ЛОГОТИПА*/
+      .Fon{
+        position: absolute;
+width: 1500px; /* Ширина изображения */
+height: 900px; /* Высота изображения */
+margin-left: 20px;
+margin-bottom: 2px;
+z-index: 1;
+    }
+    
+    .Natlli{
+      position: absolute;
+      width: 490px; /* Ширина изображения */
+      height: 150px; /* Высота изображения */
+      bottom: -61px;
+      z-index: 1;
+      left: 520px;
+          }
+.Shapki{
+position: absolute;
+width: 1000px; /* Ширина изображения */
+height: 150px; /* Высота изображения */
+margin-top: 490px;
+z-index: -1;
+left: 260px;
+                } 
+
+    .FonDenRogdenia{
+      position: absolute;
+      width: 100%; /* Ширина изображения */
+      height: 560px; /* Высота изображения */
+      margin-top: 680px;
+      z-index: 2;
+          }
+
+          .Devochka{
+            position: absolute;
+            width: 400px; /* Ширина изображения */
+            height: 400px; /* Высота изображения */
+            margin-top: 750px;
+            z-index: 3;
+            left: 10px;
+                }
+
+                .DenRogdenia {
+                  position: absolute;
+            width: 300px; /* Ширина изображения */
+            height: 150px; /* Высота изображения */
+            margin-top: 900px;
+            z-index: 3;
+            left: 620px;
+                }
+
+                .Malchik{
+                  position: absolute;
+                  width: 400px; /* Ширина изображения */
+                  height: 400px; /* Высота изображения */
+                  margin-top: 750px;
+                  z-index: 3;
+                  left: 1110px;
+                      }
+
+.FonHelouin{
+position: absolute;
+width: 100%; /* Ширина изображения */
+height: 560px; /* Высота изображения */
+margin-top: 1300px;
+z-index: 2;
+}
+
+.Helouin1{
+  position: absolute;
+  width: 400px; /* Ширина изображения */
+  height: 400px; /* Высота изображения */
+  margin-top: 1390px;
+  z-index: 9;
+  left: 1110px;
+      }
+                            
+      .Helouin{
+        position: absolute;
+        width: 450px; /* Ширина изображения */
+        height: 200px; /* Высота изображения */
+        margin-top: 1520px;
+        z-index: 9;
+        left: 490px;
+            } 
+      
+.FonValentina{
+width: 100%; /* Ширина изображения */
+height: 1000px; /* Высота изображения */
+position: absolute;
+bottom: -2290px; /* Расположение ниже фона Хэлоуина */
+z-index: 3;
+    }
+    .Valentin{
+      position: absolute;
+      width: 450px; /* Ширина изображения */
+      height: 500px; /* Высота изображения */
+      margin-top: 1975px;
+      z-index: 9;
+      left: 100px;
+          }
+        
+          .ValentinovDen{
+            position: absolute;
+            width: 450px; /* Ширина изображения */
+            height: 200px; /* Высота изображения */
+            margin-top: 2100px;
+            z-index: 9;
+            left: 750px;
+                }  
+.NoviyGod{
+width: 100%; /* Ширина изображения */
+height: 780px; /* Высота изображения */
+position: absolute;
+bottom: -2900px; /* Расположение ниже фона Хэлоуина */
+z-index: 3;
+}
+.Semya{
+  position: absolute;
+  width: 400px; /* Ширина изображения */
+  height: 400px; /* Высота изображения */
+  margin-top: 2730px;
+  z-index: 9;
+  left: 60px;
+      }
+      .Druzya{
+        position: absolute;
+        width: 400px; /* Ширина изображения */
+        height: 400px; /* Высота изображения */
+        margin-top: 2730px;
+        z-index: 9;
+        left: 1025px;
+            }
+.FonSvadba{
+width: 100%; /* Ширина изображения */
+height: 770px; /* Высота изображения */
+position: absolute;
+bottom: -3680px; /* Расположение ниже фона Хэлоуина */
+z-index: 3;
+}
+.Svadba{
+  position: absolute;
+  width: 400px; /* Ширина изображения */
+  height: 400px; /* Высота изображения */
+  margin-top: 3510px;
+  z-index: 9;
+  left: 500px;
+      }
+.TextVKonze{
+width: 100%; /* Ширина изображения */
+height: 500px; /* Высота изображения */
+position: relative;;
+bottom: -4100px; /* Расположение ниже фона Хэлоуина */
+z-index: 3;
+left: 30px;
+}
+
+.rectangle {
+  position: fixed;
+  width: 1500px;
+  height: 250px;
+  left: 5px;
+  background-color: #d696db;
+  position: relative;
+  top: 4100px;
+  z-index: -1;
+  border: #7c369f solid 5px;
+  border-radius: 30px;
+}
+
+.button-to-top {
+  position: absolute;
+  bottom: 90px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #c47aea;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: #7a399a solid 3px;
+}
+
+.button-to-top:hover {
+  background-color: #ec85f4;
+}
+

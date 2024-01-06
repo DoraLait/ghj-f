@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2_2.css">
+    <link rel="stylesheet" href="2.js">
+    <title>Natlli cake</title>
+
+</head>
+<body>
+<!--Линия под кнопки-->
+<div class="linea">
+    <p></p>
+    <!-- Кнопка для размещения Главная -->
+    <button class="Glavnay" onclick="orderFunction()">Главная</button>  
+    <form>
+        <input type="text" id="name" placeholder="Поиск">
+    </form>
+    
+    <!-- Текст "Регистрация" -->
+    <div class="registration-text">Регистрация</div>
+    <!-- Текст "Вход" -->
+    <div class="Vhod-text">Вход</div>
+    <!-- Текст "Вход" -->
+    <div class="Karta-text">Карта</div>
+    
+    <!-- Кнопка для размещения Меню -->
+    <button class="Menu" onclick="toggleMenu()">Меню</button>
+    
+    <!-- Выпадающее меню -->
+<div id="menuRazdeli" class="Razdeli">
+    <a href="#">Раздел 1</a>
+    <a href="#">Раздел 2</a>
+    <a href="#">Раздел 3</a>
+    <!-- Добавьте нужные разделы -->
+  </div>
+  
+    
+    <!--Линия под кнопки-->
+    <div class="Podwal">
+    </div>  
+    <script>
+        // Функция, вызываемая при нажатии на кнопку
+  function orderFunction() {
+    // Перенаправление на новую страницу
+    window.location.href = "2.html";
+  }
+  </script>
+</body>
+</html>

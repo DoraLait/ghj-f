@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="2.js">
+    <title>Natlli cake</title>
+
+</head>
+<body>
+
+<!--Линия под кнопки-->
+    <div class="linea">
+        <p></p>
+<button class="Zakaz" onclick="orderFunction()">Заказать</button>    
+<!-- Кнопка для размещения О нас -->
+<button class="Onas" onclick="scrollToRectangle()">О нас</button>
+
+<form>
+    <input type="text" id="name" placeholder="Поиск">
+</form>
+
+<!-- Текст "Регистрация" -->
+<div class="registration-text">Регистрация</div>
+<!-- Текст "Вход" -->
+<div class="Vhod-text">Вход</div>
+<!-- Текст "Вход" -->
+<div class="Karta-text">Карта</div>
+
+<!-- Кнопка для размещения Меню -->
+<button class="Menu" onclick="toggleMenu()">Меню</button>
+
+<!-- Выпадающее меню -->
+<div id="menuRazdeli" class="Razdeli">
+  <a href="#">Раздел 1</a>
+  <a href="#">Раздел 2</a>
+  <a href="#">Раздел 3</a>
+  <!-- Добавьте нужные разделы -->
+</div>
+
+<!--Линия под кнопки-->
+<div class="Podwal">
+</div>
+
+</p>
+
+</div>
+
+<script>
+        // Функция, вызываемая при нажатии на кнопку ЗАКАЗАТЬ
+  function orderFunction() {
+    // Перенаправление на новую страницу
+    window.location.href = "2_1.html";
+  }
+
+        // Функция для прокрутки к прямоугольнику кнопки О НАС
+  function scrollToRectangle() {
+    // Получаем элемент прямоугольника
+    var rectangle = document.getElementById('onas-section');
+    
+    // Используем метод scrollIntoView для прокрутки к элементу
+    rectangle.scrollIntoView({ behavior: 'smooth' });
+
+    // Показываем алерт после прокрутки (опционально)
+    setTimeout(function() {
+    }, 720);
+  }
+
+  function toTop() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+// Функция для переключения видимости меню
+function toggleMenu() {
+    var dropdown = document.getElementById('menuRazdeli');
+    // Изменение стиля отображения
+    dropdown.style.display = (dropdown.style.display === 'block') ? 'none' : 'block';
+  }
+
+        </script>
+
+<!--Картинка шапки-->
+<p>
+    <img class="shapka" src="./OIG.jpg" alt="Шапка">
+    <img class="Fon" src="./полосы.png" alt="Фон">
+    <!--ЛОГОТИП-->
+    <img class="logo" src="./лого.png" alt="логотип"></p>
+    
+    
+</div>
+<img class="Natlli" src="./Natlli cake.png" alt="Фон"></p>
+<img class="Shapki" src="./текст шапки.png" alt=""></p>
+<img class="FonDenRogdenia" src="./фонДеньРожд.png" alt="Фон"></p>
+<img class="Devochka" src="./Девочка.png" alt="Девочка"></p>
+<img class="DenRogdenia" src="./День рождение.png" alt="Фото"></p>
+<img class="Malchik" src="./Мальчик.png" alt="Мальчик"></p>
+<img class="FonHelouin" src="./фон Хэлоуина1.png" alt="Фон"></p>
+<img class="Helouin1" src="./Хэлоуин.png" alt="люди"></p>
+<img class="Helouin" src="./Хэлоуин3.png" alt="текст"></p>
+<img class="FonValentina" src="./ФонВалентина.png" alt="Фон"></p>
+<img class="Valentin" src="./Валентин.png" alt="Фото"></p>
+<img class="ValentinovDen" src="./Валентинов День.png" alt="текст"></p>
+<img class="NoviyGod" src="./фон новый год.png" alt="фон"></p>
+<img class="Semya" src="./Семья.png" alt="Семья"></p>
+<img class="Druzya" src="./Друзья.png" alt="Друзья"></p>
+<img class="FonSvadba" src="./Фон Свадьбы.png" alt="Свадьба"></p>
+<img class="Svadba" src="./Свадьба.png" alt="Свадьба"></p>
+<img class="TextVKonze" src="./текст в конце главной.png" alt="текст"></p>
+
+<div>
+  <div class="rectangle" id="onas-section">
+    <button class="button-to-top" onclick="toTop()">Вверх</button>
+  </div>
+
+</div>
+
+
+
+
+
+</div>
+</body>
+</html>

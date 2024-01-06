@@ -1,0 +1,163 @@
+html {
+    height: 5100px;
+    width: 1440px;
+  }       
+  
+  /*ЦВЕТ ФОНА*/
+        body {
+          background-color: #FED3E5; 
+          margin: 0;
+          height: 100%;
+          width: 100%;
+        }
+  
+        /* Линия под кнопки */
+        .linea {
+    display: flex; /* Используйте flexbox для выравнивания */
+    align-items: center; /* Выровнять элементы по вертикали */
+    justify-content: flex-start; /* Выравнивание элементов по горизонтали */
+    background-color: rgb(230, 193, 255);
+    width: 1500px;
+    height: 50px;
+    border-radius: 60px;
+    position: relative;
+    z-index: 0;
+    margin-left: 10px;
+    padding-left: 10px; /* Добавьте отступы для выравнивания с кнопками */
+  }
+
+          /* Стилизация кнопки */
+          .Glavnay {
+            padding: 8px 20px;
+            background-color: #BF90D6; /* Зеленый цвет фона */
+            color: white;
+            border: none;
+            border-radius: 60px;
+            cursor: pointer;
+            font-size: 16px;
+            position: relative; /* Добавлено для позиционирования */
+            z-index: 1; /* Добавлено для управления слоями */
+            top: 7px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            transition: background-color 0.5s ease; /* Плавное изменение цвета фона */
+        }
+  
+        /* Стилизация при наведении курсора на кнопку */
+  .Glavnay:hover {
+    background-color: #ffa4e2;
+  }
+          
+            /*Поиск*/    
+          form {
+                    margin-left: 368px; /* Добавьте поля для выравнивания по кнопкам */
+                }
+          
+                input[type="text"]#name {
+                    padding: 10px; /* Сочетание отступов с кнопками */
+                    width: 500px;
+                    border-radius: 60px; /* Сопоставьте радиус границы с кнопками */
+                    border: none; /* Удалить границу */
+                }
+          
+                /*Регистрация*/
+                .registration-text {
+                    padding: 8px 20px; /* Согласование отступов с кнопками */
+                    font-size: 16px; /* Согласование размера шрифта с кнопками */
+                    color: #420e5c; /* Цвет текста */
+                    margin-left: 10px; /* Отступ слева */
+                    cursor: default; /* Курсор по умолчанию */
+                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    margin-left: 50px;
+                }
+          
+                /* Стилизация при наведении курсора на текст "Регистрация" */
+                .registration-text:hover {
+                    color: #ff4ec7; /* Цвет текста при наведении */
+                    text-decoration: underline; /* Подчеркивание текста */
+                }
+                
+          
+                /*Вход*/
+                .Vhod-text {
+                    padding: 8px 20px; /* Согласование отступов с кнопками */
+                    font-size: 16px; /* Согласование размера шрифта с кнопками */
+                    color: #420e5c; /* Цвет текста */
+                    margin-left: 10px; /* Отступ слева */
+                    cursor: default; /* Курсор по умолчанию */
+                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+          
+                /* Стилизация при наведении курсора на текст "Вход" */
+                .Vhod-text:hover {
+                    color: #ff40c3; /* Цвет текста при наведении */
+                    text-decoration: underline; /* Подчеркивание текста */
+                }
+          
+                /*Карта*/
+                .Karta-text {
+                  padding: 8px 20px; /* Согласование отступов с кнопками */
+                  font-size: 16px; /* Согласование размера шрифта с кнопками */
+                  color: #420e5c; /* Цвет текста */
+                  margin-left: 10px; /* Отступ слева */
+                  cursor: default; /* Курсор по умолчанию */
+                  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              }
+          
+              /* Стилизация при наведении курсора на текст "Вход" */
+              .Karta-text:hover {
+                  color: #ff40c3; /* Цвет текста при наведении */
+                  text-decoration: underline; /* Подчеркивание текста */
+              }
+          
+               /* Стилизация кнопки */
+               .Menu {
+                padding: 8px 20px;
+                background-color: #BF90D6; /* Зеленый цвет фона */
+                color: white;
+                border: none;
+                border-radius: 60px;
+                cursor: pointer;
+                font-size: 16px;
+                position: relative; /* Добавлено для позиционирования */
+                z-index: 1; /* Добавлено для управления слоями */
+                top: 7px;
+                margin-left: 50px;
+                margin-bottom: 15px;
+                transition: background-color 0.5s ease; /* Плавное изменение цвета фона */
+            }
+          
+          /* Стилизация при наведении курсора на кнопку */
+          .Menu:hover {
+            background-color: #ffa4e2;
+          }
+          
+/* Стилизация для выпадающего меню */
+.Razdeli {
+  display: none;
+    position: absolute;
+    background-color: #BF90D6;
+    min-width: 100px;
+    box-shadow: 25px 16px 17px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    z-index: 4;
+    bottom: -100px;
+    left: 1300px;
+  }
+  
+  /* Стилизация для элементов выпадающего меню */
+  .Razdeli1 a {
+    color: white;
+    padding: 17px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  /* Стилизация при наведении курсора на элементы выпадающего меню */
+  .Razdeli1 a:hover {
+    background-color: #ffa4e2;
+    
+  }
+
+          
